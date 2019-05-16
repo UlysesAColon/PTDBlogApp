@@ -1,15 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import PTDLLCIcon from '../src/images/PTDLLCIcon.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={PTDLLCIcon} className="App-logo box bounce-1" alt="logo" />
         <p>
-         There will be an input for blog information here.
+         This is a blog page for Programmed To Destroy
         </p>
+        <form>
+        <label>Blog element input:
+          <textarea>
+          Area for blog input      
+          </textarea>
+          </label>
+          <button>Submit</button>
+        </form>
+        <br />
         <a
           className="App-link"
           href="https://programmedtodestroy.herokuapp.com/"
